@@ -1,0 +1,638 @@
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\CartingManagmentApi.dll.config
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\CartingManagmentApi.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\CartingManagmentApi.pdb
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\csc.exe
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\csc.exe.config
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\csc.rsp
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\csi.exe
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\csi.rsp
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\System.AppContext.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\System.IO.FileSystem.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\vbc.exe
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\vbc.exe.config
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\vbc.rsp
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\VBCSCompiler.exe
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Antlr3.Runtime.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\EntityFramework.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\EntityFramework.SqlServer.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Security.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Security.Google.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Newtonsoft.Json.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Owin.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Net.Http.Formatting.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Helpers.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Http.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Http.Owin.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Http.WebHost.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Mvc.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Optimization.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Razor.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.WebPages.Deployment.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.WebPages.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.WebPages.Razor.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\WebGrease.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Newtonsoft.Json.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Net.Http.Formatting.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Helpers.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Http.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Http.WebHost.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Mvc.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Optimization.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Razor.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.WebPages.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.WebPages.Deployment.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.WebPages.Razor.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Antlr3.Runtime.pdb
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\EntityFramework.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\EntityFramework.SqlServer.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Security.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Security.Google.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Http.Owin.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.csproj.CoreCompileInputs.cache
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.csproj.CopyComplete
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.pdb
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.cartdb.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.csproj.GenerateResource.cache
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Cors.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\System.Web.Cors.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.Owin.Cors.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.db.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.extra.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.driversalart.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.salary.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.last.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.gtin.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.companygstin.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.updateddatabse.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.createdt.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.removedate.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.jobwork.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.jobworkid.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.invoiceno.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.csprojAssemblyReference.cache
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\BouncyCastle.Crypto.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\itextsharp.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\itextsharp.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.attendancestatus.resources
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\MigraDoc.DocumentObjectModel.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\MigraDoc.Rendering.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\MigraDoc.RtfRendering.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\PdfSharp.Charting.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\PdfSharp.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\MigraDoc.DocumentObjectModel.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\MigraDoc.Rendering.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\MigraDoc.RtfRendering.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\PdfSharp.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\PdfSharp.Charting.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\de\MigraDoc.DocumentObjectModel.resources.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\de\MigraDoc.Rendering.resources.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\de\MigraDoc.RtfRendering.resources.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\de\PdfSharp.resources.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\de\PdfSharp.Charting.resources.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Spire.License.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Spire.Pdf.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Microsoft.mshtml.dll
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Spire.License.xml
+D:\Balaji fruitsvegetables2020\CartingManagmentApi\bin\Spire.Pdf.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\CartingManagmentApi.dll.config
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\CartingManagmentApi.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\CartingManagmentApi.pdb
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\csc.exe
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\csc.exe.config
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\csc.rsp
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\csi.exe
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\csi.rsp
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\System.AppContext.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\System.IO.FileSystem.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\vbc.exe
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\vbc.exe.config
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\vbc.rsp
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\VBCSCompiler.exe
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Antlr3.Runtime.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\BouncyCastle.Crypto.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\EntityFramework.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\EntityFramework.SqlServer.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itextsharp.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Cors.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Security.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Security.Google.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\MigraDoc.DocumentObjectModel.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\MigraDoc.Rendering.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\MigraDoc.RtfRendering.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Newtonsoft.Json.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Owin.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\PdfSharp.Charting.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\PdfSharp.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Spire.License.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Spire.Pdf.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Net.Http.Formatting.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Cors.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Helpers.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Http.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Http.Owin.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Http.WebHost.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Mvc.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Optimization.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Razor.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.WebPages.Deployment.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.WebPages.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.WebPages.Razor.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\WebGrease.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.mshtml.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itextsharp.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Cors.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\MigraDoc.DocumentObjectModel.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\MigraDoc.Rendering.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\MigraDoc.RtfRendering.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\PdfSharp.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\PdfSharp.Charting.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Spire.License.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Spire.Pdf.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Newtonsoft.Json.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Net.Http.Formatting.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Helpers.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Http.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Http.WebHost.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Mvc.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Optimization.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Razor.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.WebPages.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.WebPages.Deployment.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.WebPages.Razor.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Antlr3.Runtime.pdb
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\EntityFramework.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\EntityFramework.SqlServer.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Security.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Security.Google.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\System.Web.Http.Owin.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\de\MigraDoc.DocumentObjectModel.resources.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\de\MigraDoc.Rendering.resources.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\de\MigraDoc.RtfRendering.resources.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\de\PdfSharp.resources.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\de\PdfSharp.Charting.resources.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.csprojAssemblyReference.cache
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.cartdb.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.db.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.extra.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.driversalart.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.salary.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.last.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.gtin.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.companygstin.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.updateddatabse.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.createdt.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.removedate.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.jobwork.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.jobworkid.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.invoiceno.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.attendancestatus.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.csproj.GenerateResource.cache
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.csproj.CoreCompileInputs.cache
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.csproj.CopyComplete
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.pdb
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Common.Logging.Core.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Common.Logging.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.barcodes.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.forms.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.io.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.kernel.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.layout.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.pdfa.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.sign.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.styledxmlparser.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.svg.dll
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\BouncyCastle.Crypto.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Common.Logging.pdb
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Common.Logging.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Common.Logging.Core.pdb
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\Common.Logging.Core.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.barcodes.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.forms.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.io.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.kernel.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.layout.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.pdfa.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.sign.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.styledxmlparser.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\bin\itext.svg.xml
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.invoicepath.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.smslink.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.appversion.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.fuelmaster.resources
+D:\Project2020\GREENSHOP20\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.vehiclemasters.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\CartingManagmentApi.dll.config
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\CartingManagmentApi.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\CartingManagmentApi.pdb
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\csc.exe
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\csc.exe.config
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\csc.rsp
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\csi.exe
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\csi.rsp
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\System.AppContext.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\System.IO.FileSystem.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\vbc.exe
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\vbc.exe.config
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\vbc.rsp
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\VBCSCompiler.exe
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Antlr3.Runtime.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\BouncyCastle.Crypto.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Common.Logging.Core.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Common.Logging.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\EntityFramework.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\EntityFramework.SqlServer.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.barcodes.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.forms.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.io.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.kernel.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.layout.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.pdfa.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.sign.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.styledxmlparser.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.svg.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itextsharp.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Cors.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Security.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Security.Google.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\MigraDoc.DocumentObjectModel.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\MigraDoc.Rendering.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\MigraDoc.RtfRendering.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Newtonsoft.Json.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Owin.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\PdfSharp.Charting.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\PdfSharp.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Spire.License.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Spire.Pdf.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Net.Http.Formatting.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Cors.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Helpers.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Http.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Http.Owin.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Http.WebHost.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Mvc.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Optimization.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Razor.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.WebPages.Deployment.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.WebPages.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.WebPages.Razor.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\WebGrease.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.mshtml.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\BouncyCastle.Crypto.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Common.Logging.pdb
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Common.Logging.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Common.Logging.Core.pdb
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Common.Logging.Core.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.barcodes.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.forms.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.io.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.kernel.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.layout.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.pdfa.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.sign.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.styledxmlparser.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itext.svg.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\itextsharp.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Cors.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\MigraDoc.DocumentObjectModel.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\MigraDoc.Rendering.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\MigraDoc.RtfRendering.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\PdfSharp.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\PdfSharp.Charting.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Spire.License.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Spire.Pdf.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Newtonsoft.Json.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Net.Http.Formatting.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Helpers.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Http.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Http.WebHost.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Mvc.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Optimization.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Razor.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.WebPages.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.WebPages.Deployment.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.WebPages.Razor.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Antlr3.Runtime.pdb
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\EntityFramework.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\EntityFramework.SqlServer.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Security.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Security.Google.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\System.Web.Http.Owin.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\de\MigraDoc.DocumentObjectModel.resources.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\de\MigraDoc.Rendering.resources.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\de\MigraDoc.RtfRendering.resources.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\de\PdfSharp.resources.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\bin\de\PdfSharp.Charting.resources.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.csprojAssemblyReference.cache
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.cartdb.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.db.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.extra.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.driversalart.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.salary.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.last.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.gtin.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.companygstin.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.updateddatabse.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.createdt.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.removedate.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.jobwork.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.jobworkid.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.invoiceno.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.attendancestatus.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.invoicepath.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.smslink.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.appversion.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.fuelmaster.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.vehiclemasters.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.csproj.GenerateResource.cache
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.csproj.CoreCompileInputs.cache
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.csproj.CopyComplete
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.dll
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.pdb
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.driverupdate.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.licensedateupto.resources
+D:\Project2020\OKCARTING\CartingManagmentApi\obj\Debug\CartingManagmentApi.Migrations.loginstatus.resources
+D:\2021\JUNE2021\OkCartingAPI\bin\CartingManagmentApi.dll.config
+D:\2021\JUNE2021\OkCartingAPI\bin\CartingManagmentApi.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\CartingManagmentApi.pdb
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\csc.exe
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\csc.exe.config
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\csc.rsp
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\csi.exe
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\csi.rsp
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\System.AppContext.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\System.IO.FileSystem.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\vbc.exe
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\vbc.exe.config
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\vbc.rsp
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\VBCSCompiler.exe
+D:\2021\JUNE2021\OkCartingAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\2021\JUNE2021\OkCartingAPI\bin\Antlr3.Runtime.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\BouncyCastle.Crypto.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Common.Logging.Core.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Common.Logging.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\EntityFramework.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\EntityFramework.SqlServer.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.barcodes.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.forms.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.io.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.kernel.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.layout.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.pdfa.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.sign.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.styledxmlparser.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.svg.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\itextsharp.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Cors.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Security.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Security.Facebook.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Security.Google.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Security.Twitter.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\MigraDoc.DocumentObjectModel.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\MigraDoc.Rendering.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\MigraDoc.RtfRendering.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Newtonsoft.Json.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Owin.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\PdfSharp.Charting.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\PdfSharp.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Spire.License.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Spire.Pdf.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Net.Http.Formatting.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Cors.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Helpers.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Http.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Http.Owin.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Http.WebHost.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Mvc.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Optimization.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Razor.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.WebPages.Deployment.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.WebPages.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.WebPages.Razor.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\WebGrease.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.mshtml.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\BouncyCastle.Crypto.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Common.Logging.pdb
+D:\2021\JUNE2021\OkCartingAPI\bin\Common.Logging.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Common.Logging.Core.pdb
+D:\2021\JUNE2021\OkCartingAPI\bin\Common.Logging.Core.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.barcodes.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.forms.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.io.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.kernel.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.layout.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.pdfa.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.sign.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.styledxmlparser.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\itext.svg.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\itextsharp.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Cors.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\MigraDoc.DocumentObjectModel.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\MigraDoc.Rendering.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\MigraDoc.RtfRendering.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\PdfSharp.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\PdfSharp.Charting.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Spire.License.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Spire.Pdf.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Newtonsoft.Json.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Net.Http.Formatting.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Helpers.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Http.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Http.WebHost.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Mvc.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Optimization.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Razor.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.WebPages.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.WebPages.Deployment.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.WebPages.Razor.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Antlr3.Runtime.pdb
+D:\2021\JUNE2021\OkCartingAPI\bin\EntityFramework.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\EntityFramework.SqlServer.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Security.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Security.Facebook.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Security.Google.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Security.Twitter.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\System.Web.Http.Owin.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\2021\JUNE2021\OkCartingAPI\bin\de\MigraDoc.DocumentObjectModel.resources.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\de\MigraDoc.Rendering.resources.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\de\MigraDoc.RtfRendering.resources.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\de\PdfSharp.resources.dll
+D:\2021\JUNE2021\OkCartingAPI\bin\de\PdfSharp.Charting.resources.dll
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.csprojAssemblyReference.cache
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.cartdb.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.db.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.extra.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.driversalart.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.salary.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.last.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.gtin.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.companygstin.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.updateddatabse.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.createdt.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.removedate.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.jobwork.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.jobworkid.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.invoiceno.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.attendancestatus.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.invoicepath.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.smslink.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.appversion.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.fuelmaster.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.vehiclemasters.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.driverupdate.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.licensedateupto.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.loginstatus.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.csproj.GenerateResource.cache
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.csproj.CoreCompileInputs.cache
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.csproj.CopyComplete
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.dll
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.pdb
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.petrolpump.resources
+D:\2021\JUNE2021\OkCartingAPI\obj\Debug\CartingManagmentApi.Migrations.petrolpumpid.resources
