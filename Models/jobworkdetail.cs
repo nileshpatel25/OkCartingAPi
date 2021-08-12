@@ -10,7 +10,8 @@ namespace CartingManagmentApi.Models
     {
         public string id { get; set; } 
         public string jobworkid { get; set; }
-        public string vehicleid { get; set; }
+        public string vehicleid { get; set; }  
+        public string driverid { get; set; }
         public double hour { get; set; }
         public double perhourrate { get; set; }
         public double totalamount { get; set; }

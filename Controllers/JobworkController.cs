@@ -74,6 +74,7 @@ namespace CartingManagmentApi.Controllers
                             perhourrate = jobworkRequest.jobworkdetails[i].perhourrate,
                             totalamount = jobworkRequest.jobworkdetails[i].totalamount,
                             vehicleid = jobworkRequest.jobworkdetails[i].vehicleid,
+                            driverid=jobworkRequest.jobworkdetails[i].driverid,
                             workdate = jobworkRequest.jobworkdetails[i].workdate,                          
                             deleted = false
 
@@ -151,6 +152,7 @@ namespace CartingManagmentApi.Controllers
                                 perhourrate = jobworkRequest.jobworkdetails[i].perhourrate,
                                 totalamount = jobworkRequest.jobworkdetails[i].totalamount,
                                 vehicleid = jobworkRequest.jobworkdetails[i].vehicleid,
+                                driverid=jobworkRequest.jobworkdetails[i].driverid,
                                 workdate = jobworkRequest.jobworkdetails[i].workdate,
                                 deleted = false
 
@@ -630,6 +632,8 @@ namespace CartingManagmentApi.Controllers
                                       j.totalamount,
                                       j.vehicleid,
                                       Vehiclename = appDbContex.vehicles.Where(a => a.id == j.vehicleid).FirstOrDefault().vehiclename,
+                                     j.driverid,
+                                     drivername=appDbContex.drivers.Where(d=>d.id==j.driverid).FirstOrDefault().name,
                                       workdate = SqlFunctions.DateName("day", j.workdate).Trim() + "/" + SqlFunctions.StringConvert((double)j.workdate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", j.workdate),
                                       j.discrition
 
@@ -687,6 +691,8 @@ namespace CartingManagmentApi.Controllers
                                           j.totalamount,
                                           j.vehicleid,
                                           Vehiclename = appDbContex.vehicles.Where(a => a.id == j.vehicleid).FirstOrDefault().vehiclename,
+                                          j.driverid,
+                                          drivername = appDbContex.drivers.Where(d => d.id == j.driverid).FirstOrDefault().name,
                                           workdate = SqlFunctions.DateName("day", j.workdate).Trim() + "/" + SqlFunctions.StringConvert((double)j.workdate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", j.workdate),
                                           j.discrition
 
@@ -743,8 +749,10 @@ namespace CartingManagmentApi.Controllers
                                           j.totalamount,
                                           j.vehicleid,
                                           Vehiclename = appDbContex.vehicles.Where(a => a.id == j.vehicleid).FirstOrDefault().vehiclename,
-                                         // j.workdate,
-                                          workdate= SqlFunctions.DateName("day", j.workdate).Trim() + "/" + SqlFunctions.StringConvert((double)j.workdate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", j.workdate),
+                                          // j.workdate,
+                                          j.driverid,
+                                          drivername = appDbContex.drivers.Where(d => d.id == j.driverid).FirstOrDefault().name,
+                                          workdate = SqlFunctions.DateName("day", j.workdate).Trim() + "/" + SqlFunctions.StringConvert((double)j.workdate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", j.workdate),
                                           j.discrition
 
                                       })
@@ -796,6 +804,8 @@ namespace CartingManagmentApi.Controllers
                                           j.totalamount,
                                           j.vehicleid,
                                           Vehiclename = appDbContex.vehicles.Where(v => v.id == j.vehicleid).FirstOrDefault().vehiclename,
+                                          j.driverid,
+                                          drivername = appDbContex.drivers.Where(d => d.id == j.driverid).FirstOrDefault().name,
                                           workdate = SqlFunctions.DateName("day", j.workdate).Trim() + "/" + SqlFunctions.StringConvert((double)j.workdate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", j.workdate),
                                           j.discrition
 
@@ -907,6 +917,8 @@ namespace CartingManagmentApi.Controllers
                                           j.totalamount,
                                           j.vehicleid,
                                           Vehiclename = appDbContex.vehicles.Where(v => v.id == j.vehicleid).FirstOrDefault().vehiclename,
+                                          j.driverid,
+                                          drivername = appDbContex.drivers.Where(d => d.id == j.driverid).FirstOrDefault().name,
                                           workdate = SqlFunctions.DateName("day", j.workdate).Trim() + "/" + SqlFunctions.StringConvert((double)j.workdate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", j.workdate),
                                           j.discrition
 
@@ -968,6 +980,8 @@ namespace CartingManagmentApi.Controllers
                                           j.perhourrate,
                                           j.totalamount,
                                           j.vehicleid,
+                                          j.driverid,
+                                          drivername = appDbContex.drivers.Where(d => d.id == j.driverid).FirstOrDefault().name,
                                           Vehiclename = appDbContex.vehicles.Where(a => a.id == j.vehicleid).FirstOrDefault().vehiclename,
                                           workdate = SqlFunctions.DateName("day", j.workdate).Trim() + "/" + SqlFunctions.StringConvert((double)j.workdate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", j.workdate),
                                           j.discrition

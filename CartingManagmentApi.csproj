@@ -391,6 +391,14 @@
     <Compile Include="Migrations\202107271730212_petrolpumpid.Designer.cs">
       <DependentUpon>202107271730212_petrolpumpid.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202108061133074_vendorpayment.cs" />
+    <Compile Include="Migrations\202108061133074_vendorpayment.Designer.cs">
+      <DependentUpon>202108061133074_vendorpayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108110955115_expense.cs" />
+    <Compile Include="Migrations\202108110955115_expense.Designer.cs">
+      <DependentUpon>202108110955115_expense.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -401,6 +409,8 @@
     <Compile Include="Models\driver.cs" />
     <Compile Include="Models\driveradvancesalary.cs" />
     <Compile Include="Models\driverattendance.cs" />
+    <Compile Include="Models\expensedetails.cs" />
+    <Compile Include="Models\expensetype.cs" />
     <Compile Include="Models\fuelmaster.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\jobwork.cs" />
@@ -648,6 +658,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202107271730212_petrolpumpid.resx">
       <DependentUpon>202107271730212_petrolpumpid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108061133074_vendorpayment.resx">
+      <DependentUpon>202108061133074_vendorpayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108110955115_expense.resx">
+      <DependentUpon>202108110955115_expense.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
