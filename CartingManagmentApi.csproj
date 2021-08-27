@@ -278,6 +278,7 @@
     <Compile Include="Controllers\DriveradvancesalaryController.cs" />
     <Compile Include="Controllers\DriverAttendanceController.cs" />
     <Compile Include="Controllers\DriverController.cs" />
+    <Compile Include="Controllers\ExpenseController.cs" />
     <Compile Include="Controllers\FuelMasterController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JobworkController.cs" />
@@ -398,6 +399,14 @@
     <Compile Include="Migrations\202108110955115_expense.cs" />
     <Compile Include="Migrations\202108110955115_expense.Designer.cs">
       <DependentUpon>202108110955115_expense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108181828312_expense1.cs" />
+    <Compile Include="Migrations\202108181828312_expense1.Designer.cs">
+      <DependentUpon>202108181828312_expense1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108271734234_latest.cs" />
+    <Compile Include="Migrations\202108271734234_latest.Designer.cs">
+      <DependentUpon>202108271734234_latest.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -664,6 +673,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202108110955115_expense.resx">
       <DependentUpon>202108110955115_expense.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108181828312_expense1.resx">
+      <DependentUpon>202108181828312_expense1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108271734234_latest.resx">
+      <DependentUpon>202108271734234_latest.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

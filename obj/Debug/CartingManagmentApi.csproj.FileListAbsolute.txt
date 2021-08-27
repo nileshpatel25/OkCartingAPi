@@ -808,3 +808,5 @@ D:\2021\AUG2021\obj\Debug\CartingManagmentApi.dll
 D:\2021\AUG2021\obj\Debug\CartingManagmentApi.pdb
 D:\2021\AUG2021\obj\Debug\CartingManagmentApi.Migrations.vendorpayment.resources
 D:\2021\AUG2021\obj\Debug\CartingManagmentApi.Migrations.expense.resources
+D:\2021\AUG2021\obj\Debug\CartingManagmentApi.Migrations.expense1.resources
+D:\2021\AUG2021\obj\Debug\CartingManagmentApi.Migrations.latest.resources

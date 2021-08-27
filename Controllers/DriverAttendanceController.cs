@@ -161,6 +161,7 @@ namespace CartingManagmentApi.Controllers
                                    
                                       status = c.status == 0 ? "FullDay" :
                                                 c.status == 1 ? "HalfDay" : "Absence",
+                                                attendacedate=c.dtattencanceDate,
                                       dtattencanceDate = SqlFunctions.DateName("day", c.dtattencanceDate).Trim() + "/" + SqlFunctions.StringConvert((double)c.dtattencanceDate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.dtattencanceDate),
                                      c.hour,
                                       c.driverid,
@@ -200,6 +201,7 @@ namespace CartingManagmentApi.Controllers
                                       c.userid,
                                       status = c.status == 0 ? "FullDay" :
                                                 c.status == 1 ? "HalfDay" : "Absence",
+                                      attendacedate = c.dtattencanceDate,
                                       dtattencanceDate = SqlFunctions.DateName("day", c.dtattencanceDate).Trim() + "/" + SqlFunctions.StringConvert((double)c.dtattencanceDate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.dtattencanceDate),
                                       c.hour,
                                       c.driverid,
@@ -237,6 +239,7 @@ namespace CartingManagmentApi.Controllers
                                       c.userid,                                     
                                       status = c.status == 0 ? "FullDay" :
                                                 c.status == 1 ? "HalfDay" : "Absence",
+                                      attendacedate = c.dtattencanceDate,
                                       dtattencanceDate = SqlFunctions.DateName("day", c.dtattencanceDate).Trim() + "/" + SqlFunctions.StringConvert((double)c.dtattencanceDate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.dtattencanceDate),
                                       c.hour,
                                       c.driverid,

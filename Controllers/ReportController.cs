@@ -640,5 +640,38 @@ namespace CartingManagmentApi.Controllers
         }
 
 
+        [HttpPost]
+        [Route("hiringhistorybetweendate")]
+        public async Task<ResponseStatus> hiringhistorybetweendates(string userid, DateTime fromdate, DateTime todate)
+        {
+            try
+            {
+                ResponseStatus status = new ResponseStatus();
+                fromdate = fromdate.AddDays(-1);
+                todate = todate.AddDays(1);
+                var jobworkdetail = appDbContex.jobworkdetails.Where(j => j.jobworkid == appDbContex.jobworks.Where(a => a.deleted == false && a.userid == userid).FirstOrDefault().id).Select(j => new
+                {
+                    j.hour,
+                    j.perhourrate,
+                    j.totalamount,
+                    j.vehicleid,
+                    Vehiclename = appDbContex.vehicles.Where(a => a.id == j.vehicleid).FirstOrDefault().vehiclename,
+                    workdate = SqlFunctions.DateName("day", j.workdate).Trim() + "/" + SqlFunctions.StringConvert((double)j.workdate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", j.workdate),
+                    j.discrition
+
+                });
+               // status.invoicepath = pdfpath;
+                status.lstItems = jobworkdetail;
+                status.status = true;
+               // status.objItem = totalamount;
+                return status;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
     }
 }

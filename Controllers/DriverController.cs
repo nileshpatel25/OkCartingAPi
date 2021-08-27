@@ -317,7 +317,7 @@ namespace CartingManagmentApi.Controllers
                                   c.name,
                                   c.othermobileno,
                                   c.hireon,
-                                
+                                  licensevaliduptovalid = c.licensevalidupto,
                                   licensevalidupto = SqlFunctions.DateName("day", c.licensevalidupto).Trim() + "/" + SqlFunctions.StringConvert((double)c.licensevalidupto.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.licensevalidupto),
 
                                   c.adharcardimage,
@@ -332,9 +332,10 @@ namespace CartingManagmentApi.Controllers
                                   c.address2,
                                   c.active,
                                   c.adharcardno,
-                                 
-                                  dateofjoining = SqlFunctions.DateName("day", c.dateofjoining).Trim() + "/" + SqlFunctions.StringConvert((double)c.dateofjoining.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.dateofjoining),
-                                  dateofresinging = SqlFunctions.DateName("day", c.dateofresinging).Trim() + "/" + SqlFunctions.StringConvert((double)c.dateofresinging.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.dateofresinging),
+                                  joingdate = c.dateofjoining,
+                                  disdateofjoining = SqlFunctions.DateName("day", c.dateofjoining).Trim() + "/" + SqlFunctions.StringConvert((double)c.dateofjoining.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.dateofjoining),
+                                  resigndate = c.dateofresinging,
+                                  disdateofresinging = SqlFunctions.DateName("day", c.dateofresinging).Trim() + "/" + SqlFunctions.StringConvert((double)c.dateofresinging.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.dateofresinging),
 
                                  
                                   c.deleted
@@ -370,6 +371,7 @@ namespace CartingManagmentApi.Controllers
                     c.name,
                     c.othermobileno,
                     c.hireon,
+                    licensevaliduptovalid = c.licensevalidupto,
                     licensevalidupto = SqlFunctions.DateName("day", c.licensevalidupto).Trim() + "/" + SqlFunctions.StringConvert((double)c.licensevalidupto.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.licensevalidupto),
 
                     c.adharcardimage,
@@ -384,7 +386,9 @@ namespace CartingManagmentApi.Controllers
                     c.address2,
                     c.active,
                     c.adharcardno,
+                    joingdate=c.dateofjoining,
                     dateofjoining = SqlFunctions.DateName("day", c.dateofjoining).Trim() + "/" + SqlFunctions.StringConvert((double)c.dateofjoining.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.dateofjoining),
+                   resigndate=c.dateofresinging,
                     dateofresinging = SqlFunctions.DateName("day", c.dateofresinging).Trim() + "/" + SqlFunctions.StringConvert((double)c.dateofresinging.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.dateofresinging),
 
                     c.deleted
@@ -421,6 +425,7 @@ namespace CartingManagmentApi.Controllers
                                       c.name,
                                       c.othermobileno,
                                       c.hireon,
+                                      licensevaliduptovalid = c.licensevalidupto,
                                       licensevalidupto = SqlFunctions.DateName("day", c.licensevalidupto).Trim() + "/" + SqlFunctions.StringConvert((double)c.licensevalidupto.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.licensevalidupto),
 
                                       c.adharcardimage,
@@ -435,7 +440,9 @@ namespace CartingManagmentApi.Controllers
                                       c.address2,
                                       c.active,
                                       c.adharcardno,
+                                      joingdate = c.dateofjoining,
                                       dateofjoining = SqlFunctions.DateName("day", c.dateofjoining).Trim() + "/" + SqlFunctions.StringConvert((double)c.dateofjoining.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.dateofjoining),
+                                      resigndate = c.dateofresinging,
                                       dateofresinging = SqlFunctions.DateName("day", c.dateofresinging).Trim() + "/" + SqlFunctions.StringConvert((double)c.dateofresinging.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.dateofresinging),
 
                                       c.deleted

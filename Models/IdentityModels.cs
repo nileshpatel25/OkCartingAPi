@@ -61,6 +61,9 @@ namespace CartingManagmentApi.Models
         public DbSet<LoginStatus> LoginStatuses { get; set; }
         public DbSet<petrolpump> Petrolpumps { get; set; }
         public DbSet<vendorpayment> Vendorpayments { get; set; }
+
+        public DbSet<expensetype> expensetypes { get; set; }
+        public DbSet<expensedetails> expensedetails { get; set; }
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
