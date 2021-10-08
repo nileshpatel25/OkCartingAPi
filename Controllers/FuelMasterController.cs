@@ -53,6 +53,7 @@ namespace CartingManagmentApi.Controllers
                     appDbContex.fuelmasters.Add(fuelmaster);
                     await appDbContex.SaveChangesAsync();
                     status.status = true;
+                    status.objItem = guId.ToString();
                     status.message = "Fuel details save successfully!";
                     // status.lstItems = GetAllCity(cityRequest.stateId).Result.lstItems;
                     return status;
@@ -74,6 +75,7 @@ namespace CartingManagmentApi.Controllers
                         await appDbContex.SaveChangesAsync();
 
                         status.status = true;
+                        status.objItem = fuelRequest.id;
                         status.message = "Fuel details Updated Successfully!";
                         return status;
                     }
@@ -490,6 +492,56 @@ namespace CartingManagmentApi.Controllers
             catch (Exception ex)
             {
 
+                throw ex;
+            }
+        }
+
+
+        [HttpPost]
+        [Route("vendorsfuelsofpendingpayment")]
+        public async Task<ResponseStatus> vendorsfuelsofpendingpayment(string id)
+        {
+            try
+            {
+                ResponseStatus status = new ResponseStatus();
+
+
+                status.lstItems = from a in appDbContex.fuelmasters.Where(a => a.deleted == false && a.petrolpumpid == id)
+                                  select new
+                                  {
+                                      a.id,
+                                      a.petrolpumpid,
+                                      a.paymenttype,
+                                      petrolpumpname = appDbContex.Petrolpumps.Where(b => b.id == a.petrolpumpid).FirstOrDefault().name,
+                                      ownername = appDbContex.Petrolpumps.Where(b => b.id == a.petrolpumpid).FirstOrDefault().ownername,
+                                      a.deleted,
+                                      a.receipt,
+                                      a.userid,
+                                      a.fueldate,
+                                      dtfuledate = SqlFunctions.DateName("day", a.fueldate).Trim() + "/" + SqlFunctions.StringConvert((double)a.fueldate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", a.fueldate),
+                                      a.rate,
+                                      a.liter,
+                                      a.vehicleid,
+                                      Vehiclename=appDbContex.vehicles.Where(v=>v.id==a.vehicleid).FirstOrDefault().vehiclename,
+                                      a.driverid,
+                                      a.totalamount,
+                                      receivedamt = (from payment in appDbContex.Vendorpayments
+                                                     where payment.purchaseid == a.id && payment.deleted == false
+                                                     select payment).Sum(e => (double?)e.amount) ?? 0,
+                                      pendingamt = (a.totalamount) -
+                                                     ((from payment in appDbContex.Vendorpayments
+                                                       where payment.purchaseid == a.id && payment.deleted == false
+                                                       select payment).Sum(e => (double?)e.amount) ?? 0)
+
+                                  };
+
+
+                status.status = true;
+                return status;
+
+            }
+            catch (Exception ex)
+            {
                 throw ex;
             }
         }

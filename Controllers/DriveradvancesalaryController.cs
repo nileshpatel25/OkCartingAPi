@@ -27,6 +27,7 @@ namespace CartingManagmentApi.Controllers
             ResponseStatus status = new ResponseStatus();
             try
             {
+                string advancesalaryid = null;
                 if (driverRequest.id == "0")
                 {
                   
@@ -46,6 +47,8 @@ namespace CartingManagmentApi.Controllers
                     appDbContex.driveradvancesalaries.Add(driveradvancesalary);
 
                     await appDbContex.SaveChangesAsync();
+
+                    advancesalaryid = guId.ToString();
                     status.status = true;
                     status.message = "Advance Salary save successfully!";
                   
@@ -66,16 +69,35 @@ namespace CartingManagmentApi.Controllers
                         driver.advancesalaryyear = driverRequest.advancesalaryyear;
                       
                         await appDbContex.SaveChangesAsync();
-
+                        advancesalaryid = driverRequest.id;
                         status.status = true;
                         status.message = "Advance Salary Updated Successfully!";
                         return status;
 
                     }
                 }
-              
+             //   var advancesalaryamount = appDbContex.totaladvancesalaries.Where(a => a.advancesalaryid == advancesalaryid && a.deleted == false).FirstOrDefault();
+                //if (advancesalaryamount == null)
+                //{
+                //    var guId = Guid.NewGuid();
+                //    totaladvancesalary totaladvancesalary = new totaladvancesalary
+                //    {
+                //        id = guId.ToString(),
+                //        advancesalaryid= advancesalaryid,
+                //        advancesalaryamt = driverRequest.advancesalaryamt,                      
+                //        deleted = false
+                //    };
+                //    // memoryCache.Remove("citylist");
+                //    appDbContex.totaladvancesalaries.Add(totaladvancesalary);
 
-            }
+                //    await appDbContex.SaveChangesAsync();
+                //}
+                //else
+                //{
+
+                //}
+
+                }
             catch (Exception ex)
             {
                 status.status = false;

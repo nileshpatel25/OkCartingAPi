@@ -64,6 +64,7 @@ namespace CartingManagmentApi.Models
 
         public DbSet<expensetype> expensetypes { get; set; }
         public DbSet<expensedetails> expensedetails { get; set; }
+       // public DbSet<totaladvancesalary> totaladvancesalaries { get; set; }
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();

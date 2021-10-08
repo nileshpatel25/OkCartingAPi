@@ -169,6 +169,7 @@ namespace CartingManagmentApi.Controllers
                                       c.remark,
                                       c.vendorid,
                                       vendorname = appDbContex.Petrolpumps.Where(a => a.id == c.vendorid).FirstOrDefault().name,
+                                      ownername = appDbContex.Petrolpumps.Where(a => a.id == c.vendorid).FirstOrDefault().ownername,
                                       c.deleted
 
 
@@ -211,6 +212,7 @@ namespace CartingManagmentApi.Controllers
                                       c.remark,
                                       c.vendorid,
                                       vendorname = appDbContex.Petrolpumps.Where(a => a.id == c.vendorid).FirstOrDefault().name,
+                                      ownername = appDbContex.Petrolpumps.Where(a => a.id == c.vendorid).FirstOrDefault().ownername,
                                       c.deleted
 
 

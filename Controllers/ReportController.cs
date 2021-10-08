@@ -234,25 +234,25 @@ namespace CartingManagmentApi.Controllers
                 fromdate = fromdate.AddDays(-1);
                 todate = todate.AddDays(1);
                 var receivedamount = from c in appDbContex.customerpayments.Where(a => a.deleted == false && a.userid == userid && a.paymentdate > fromdate.Date && a.paymentdate < todate.Date).OrderBy(a => a.paymentdate)
-                                  select new
-                                  {
+                                     select new
+                                     {
 
-                                      c.id,
-                                      c.userid,
-                                      c.amount,
-                                      c.chequeno,
-                                      c.jobworkid,
-                                      jobworkdetail = appDbContex.jobworkdetails.Where(a => a.jobworkid == c.jobworkid).ToList(),
-                                      c.paymentby,
-                                      paymentdate = SqlFunctions.DateName("day", c.paymentdate).Trim() + "/" + SqlFunctions.StringConvert((double)c.paymentdate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.paymentdate),
-                                      c.paymenttype,
-                                      c.remark,
-                                      c.customerid,
-                                      customername = appDbContex.customers.Where(a => a.id == c.customerid).FirstOrDefault().name,
-                                      c.deleted
+                                         c.id,
+                                         c.userid,
+                                         c.amount,
+                                         c.chequeno,
+                                         c.jobworkid,
+                                         jobworkdetail = appDbContex.jobworkdetails.Where(a => a.jobworkid == c.jobworkid).ToList(),
+                                         c.paymentby,
+                                         paymentdate = SqlFunctions.DateName("day", c.paymentdate).Trim() + "/" + SqlFunctions.StringConvert((double)c.paymentdate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", c.paymentdate),
+                                         c.paymenttype,
+                                         c.remark,
+                                         c.customerid,
+                                         customername = appDbContex.customers.Where(a => a.id == c.customerid).FirstOrDefault().name,
+                                         c.deleted
 
 
-                                  };
+                                     };
 
                 double? totalamount = 0;
                 // GENERATE PDF 
@@ -409,42 +409,42 @@ namespace CartingManagmentApi.Controllers
 
 
                 var pendingamount = from a in appDbContex.jobworks.Where(a => a.deleted == false && a.userid == userid)
-                                  select new
-                                  {
-                                      a.id,
-                                      a.customerid,
-                                      a.paymenttype,
-                                      customername = appDbContex.customers.Where(b => b.id == a.customerid).FirstOrDefault().name,
-                                      a.deleted,
-                                      a.status,
-                                      a.createAt,
-                                      a.invoiceno,
-                                      a.invoicepath,
-                                      jobworkdetails = appDbContex.jobworkdetails.Where(j => j.jobworkid == a.id).Select(j => new
-                                      {
-                                          j.hour,
-                                          j.perhourrate,
-                                          j.totalamount,
-                                          j.vehicleid,
-                                          Vehiclename = appDbContex.vehicles.Where(v => v.id == j.vehicleid).FirstOrDefault().vehiclename,
-                                          workdate = SqlFunctions.DateName("day", j.workdate).Trim() + "/" + SqlFunctions.StringConvert((double)j.workdate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", j.workdate),
-                                          j.discrition
+                                    select new
+                                    {
+                                        a.id,
+                                        a.customerid,
+                                        a.paymenttype,
+                                        customername = appDbContex.customers.Where(b => b.id == a.customerid).FirstOrDefault().name,
+                                        a.deleted,
+                                        a.status,
+                                        a.createAt,
+                                        a.invoiceno,
+                                        a.invoicepath,
+                                        jobworkdetails = appDbContex.jobworkdetails.Where(j => j.jobworkid == a.id).Select(j => new
+                                        {
+                                            j.hour,
+                                            j.perhourrate,
+                                            j.totalamount,
+                                            j.vehicleid,
+                                            Vehiclename = appDbContex.vehicles.Where(v => v.id == j.vehicleid).FirstOrDefault().vehiclename,
+                                            workdate = SqlFunctions.DateName("day", j.workdate).Trim() + "/" + SqlFunctions.StringConvert((double)j.workdate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", j.workdate),
+                                            j.discrition
 
-                                      }),
-                                      totalamt = (from jobwork in appDbContex.jobworkdetails
-                                                  where jobwork.jobworkid == a.id && jobwork.deleted == false
-                                                  select jobwork).Sum(e => (double?)e.totalamount) ?? 0,
-                                      receivedamt = (from payment in appDbContex.customerpayments
-                                                     where payment.jobworkid == a.id && payment.deleted == false
-                                                     select payment).Sum(e => (double?)e.amount) ?? 0,
-                                      pendingamt = ((from jobwork in appDbContex.jobworkdetails
-                                                     where jobwork.jobworkid == a.id && jobwork.deleted == false
-                                                     select jobwork).Sum(e => (double?)e.totalamount) ?? 0) -
-                                                     ((from payment in appDbContex.customerpayments
+                                        }),
+                                        totalamt = (from jobwork in appDbContex.jobworkdetails
+                                                    where jobwork.jobworkid == a.id && jobwork.deleted == false
+                                                    select jobwork).Sum(e => (double?)e.totalamount) ?? 0,
+                                        receivedamt = (from payment in appDbContex.customerpayments
                                                        where payment.jobworkid == a.id && payment.deleted == false
-                                                       select payment).Sum(e => (double?)e.amount) ?? 0)
+                                                       select payment).Sum(e => (double?)e.amount) ?? 0,
+                                        pendingamt = ((from jobwork in appDbContex.jobworkdetails
+                                                       where jobwork.jobworkid == a.id && jobwork.deleted == false
+                                                       select jobwork).Sum(e => (double?)e.totalamount) ?? 0) -
+                                                       ((from payment in appDbContex.customerpayments
+                                                         where payment.jobworkid == a.id && payment.deleted == false
+                                                         select payment).Sum(e => (double?)e.amount) ?? 0)
 
-                                  };
+                                    };
 
                 double? totalamount = 0;
                 double? totlareceiveamount = 0;
@@ -503,7 +503,7 @@ namespace CartingManagmentApi.Controllers
                 foreach (var ls in pendingamount)
                 {
                     var date = "";
-                    foreach(var lst in ls.jobworkdetails)
+                    foreach (var lst in ls.jobworkdetails)
                     {
                         date += lst.workdate.ToString();
                     }
@@ -640,6 +640,7 @@ namespace CartingManagmentApi.Controllers
         }
 
 
+        
         [HttpPost]
         [Route("hiringhistorybetweendate")]
         public async Task<ResponseStatus> hiringhistorybetweendates(string userid, DateTime fromdate, DateTime todate)
@@ -649,21 +650,28 @@ namespace CartingManagmentApi.Controllers
                 ResponseStatus status = new ResponseStatus();
                 fromdate = fromdate.AddDays(-1);
                 todate = todate.AddDays(1);
-                var jobworkdetail = appDbContex.jobworkdetails.Where(j => j.jobworkid == appDbContex.jobworks.Where(a => a.deleted == false && a.userid == userid).FirstOrDefault().id).Select(j => new
-                {
-                    j.hour,
-                    j.perhourrate,
-                    j.totalamount,
-                    j.vehicleid,
-                    Vehiclename = appDbContex.vehicles.Where(a => a.id == j.vehicleid).FirstOrDefault().vehiclename,
-                    workdate = SqlFunctions.DateName("day", j.workdate).Trim() + "/" + SqlFunctions.StringConvert((double)j.workdate.Month).TrimStart() + "/" + SqlFunctions.DateName("year", j.workdate),
-                    j.discrition
-
-                });
-               // status.invoicepath = pdfpath;
-                status.lstItems = jobworkdetail;
+                var vehichlehistory = (from JW in appDbContex.jobworks.Where(a => a.deleted == false)
+                                       join JWD in appDbContex.jobworkdetails.Where(b=> b.workdate > fromdate.Date && b.workdate < todate.Date) on JW.id equals JWD.jobworkid 
+                                       join C in appDbContex.customers on JW.customerid equals C.id into C from x in C.DefaultIfEmpty()
+                                       join V in appDbContex.vehicles on JWD.vehicleid equals V.id into V from y in V.DefaultIfEmpty()
+                                       join D in appDbContex.drivers on JWD.driverid equals D.id into D from z in D.DefaultIfEmpty()
+                                       orderby JWD.jobworkid
+                    select new
+                    {
+                        JW.userid,
+                        JW.customerid,
+                        JWD.vehicleid,
+                        JWD.hour,
+                        JWD.perhourrate,
+                        JWD.workdate,
+                        JWD.totalamount,
+                        x.name,
+                        y.vehiclenumber
+                        ,drivername = z.name
+                    }).ToList();
+                status.lstItems = vehichlehistory;
                 status.status = true;
-               // status.objItem = totalamount;
+                // status.objItem = totalamount; 
                 return status;
             }
             catch (Exception ex)
@@ -671,7 +679,174 @@ namespace CartingManagmentApi.Controllers
 
                 throw ex;
             }
+
         }
 
+
+
+        [HttpPost]
+        [Route("vehiclehistorybetweendate")]
+        public async Task<ResponseStatus> vehiclehistorybetweendates(string userid, DateTime fromdate, DateTime todate)
+        {
+            try
+            {
+                ResponseStatus status = new ResponseStatus();
+                fromdate = fromdate.AddDays(-1);
+                todate = todate.AddDays(1);              
+                var vehichlehistory = (from JWD in appDbContex.jobworkdetails.Where(a => a.deleted == false && a.workdate > fromdate.Date && a.workdate < todate.Date)
+                                     
+                                       join V in appDbContex.vehicles on JWD.vehicleid equals V.id
+                                       //group V.vehiclenumber                                      
+                                       select new
+                                       {   
+                                           JWD.hour,
+                                           totalamt = (from jobwork in appDbContex.jobworkdetails
+                                                       where jobwork.vehicleid == V.id && jobwork.deleted == false
+                                                       select jobwork).Sum(e => (double?)e.hour) ?? 0,
+                                           V.vehiclenumber                                           
+                                       }).ToList();
+                status.lstItems = vehichlehistory;
+                status.status = true;
+                // status.objItem = totalamount; 
+                return status;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+        }
+
+        [HttpPost]
+        [Route("fueldetailbetweendate")]
+        public async Task<ResponseStatus> fueldetailbetweendates(string userid, DateTime fromdate, DateTime todate)
+        {
+            try
+            {
+                ResponseStatus status = new ResponseStatus();
+                fromdate = fromdate.AddDays(-1);
+                todate = todate.AddDays(1);
+                var vehichlehistory = (from FM in appDbContex.fuelmasters.Where(a => a.deleted == false && a.fueldate > fromdate.Date && a.fueldate < todate.Date)
+                                       join P in appDbContex.Petrolpumps on FM.petrolpumpid equals P.id into P
+                                       from X in P.DefaultIfEmpty()
+                                       join D in appDbContex.drivers on FM.driverid equals D.id into D
+                                       from z in D.DefaultIfEmpty()                                    
+                                       select new
+                                       {
+                                           FM.fueldate,
+                                           X.name,
+                                           FM.rate,
+                                           FM.liter,
+                                           FM.totalamount,
+                                           drivername = z.name
+                                       }).ToList();
+                status.lstItems = vehichlehistory;
+                status.status = true;
+                // status.objItem = totalamount; 
+                return status;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+        }
+
+        [HttpPost]
+        [Route("expensedetailbetweendate")]
+        public async Task<ResponseStatus> expensedetailbetweendates(string userid, DateTime fromdate, DateTime todate)
+        {
+            try
+            {
+                ResponseStatus status = new ResponseStatus();
+                fromdate = fromdate.AddDays(-1);
+                todate = todate.AddDays(1);
+              
+                var vehichlehistory = (from ET in appDbContex.expensetypes
+                                       join ED in appDbContex.expensedetails.Where(a => a.deleted == false && a.expensedate > fromdate.Date && a.expensedate < todate.Date) on ET.id equals ED.expensetypeid
+                                      
+                                      
+                                       select new
+                                       {
+                                          ET.name,
+                                           ED.amount,
+                                           ED.expensedate
+                                       }).ToList();
+                status.lstItems = vehichlehistory;
+                status.status = true;
+                // status.objItem = totalamount; 
+                return status;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+        }
     }
 }
+
+
+//ALTER PROC[dbo].[GetDriverHourBetweenDates]
+//(
+//@userid varchar(50),
+//@fromdate DATETIME,
+//@TODATE DATETIME
+//)
+//AS
+//BEGIN
+//SET NOCOUNT ON;
+
+//SELECT SUM(JWD.hour) as totalhour,V.vehiclenumber FROM jobworkdetails As JWD
+//LEFT JOIN vehicles as V ON V.id = JWD.vehicleid
+//group by v.vehiclenumber
+
+//END
+//USE [CartingManagement]
+//GO
+///****** Object:  StoredProcedure [dbo].[GetExpensehistoryBetweenDates]    Script Date: 10/5/2021 11:48:44 AM ******/
+//SET ANSI_NULLS ON
+//GO
+//SET QUOTED_IDENTIFIER ON
+//GO
+//ALTER PROC [dbo].[GetExpensehistoryBetweenDates]
+//(
+//@userid varchar(50),
+//@fromdate DATETIME,
+//@TODATE DATETIME
+//)
+//AS
+//BEGIN
+//SET NOCOUNT ON;
+
+//SELECT ET.name, ED.amount, ED.expensedate FROM expensetypes As ET
+//LEFT JOIN expensedetails as ED ON ET.id = ED.expensetypeid
+
+
+//END
+
+//USE [CartingManagement]
+//GO
+///****** Object:  StoredProcedure [dbo].[GetVehiclehistoryBetweenDates]    Script Date: 10/5/2021 11:49:14 AM ******/
+//SET ANSI_NULLS ON
+//GO
+//SET QUOTED_IDENTIFIER ON
+//GO
+//ALTER PROC[dbo].[GetVehiclehistoryBetweenDates]
+//(
+//@userid varchar(50),
+//@fromdate DATETIME,
+//@TODATE DATETIME
+//)
+//AS
+//BEGIN
+//SET NOCOUNT ON;
+
+//SELECT SUM(JWD.hour) as totalhour,V.vehiclenumber FROM jobworkdetails As JWD
+//LEFT JOIN vehicles as V ON V.id = JWD.vehicleid
+//group by v.vehiclenumber
+
+//END

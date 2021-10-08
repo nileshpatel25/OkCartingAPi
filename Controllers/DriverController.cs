@@ -492,5 +492,58 @@ namespace CartingManagmentApi.Controllers
 
 
         }
-    }
+
+        [HttpPost]
+        [Route("driversalary")]
+        public async Task<ResponseStatus> driversalary(string userid, int attendacemonth, int attendaceyear)
+        {
+            ResponseStatus status = new ResponseStatus();
+            status.lstItems = from c in appDbContex.drivers.Where(a => a.userid == userid && a.deleted==false)
+                  select new
+                  {
+                      c.id,
+                      c.name,
+                      c.mobileno,
+                      c.perdaysalary,
+                      c.hireon,
+                      salary=calculationsalary(c.id,attendacemonth,attendaceyear)
+                     
+                  };
+
+            return status;
+        }
+
+        public string calculationsalary(string driverid, int attendacemonth, int attendaceyear)
+        {
+            var hireon = appDbContex.drivers.Where(emp => emp.id == driverid).SingleOrDefault().hireon;
+            Double perdaysalary = appDbContex.drivers.Where(emp => emp.id == driverid).SingleOrDefault().perdaysalary;
+            Double salaryamount=0;
+            Double empfulldaycount = 0;
+            Double emphalfdaycount = 0;
+            Double empabsancecount = 0;
+
+            //Day Wages
+            if (hireon == "Day Wages")
+            {
+                 empfulldaycount = appDbContex.driverattendances
+                .Where(emp => emp.driverid == driverid && emp.dtattencanceDate.Month == attendacemonth && emp.dtattencanceDate.Year == attendaceyear && emp.status == 0)
+                .Count();
+                 emphalfdaycount = appDbContex.driverattendances
+               .Where(emp => emp.driverid == driverid && emp.dtattencanceDate.Month == attendacemonth && emp.dtattencanceDate.Year == attendaceyear && emp.status == 1)
+               .Count();
+                 empabsancecount = appDbContex.driverattendances
+               .Where(emp => emp.driverid == driverid && emp.dtattencanceDate.Month == attendacemonth && emp.dtattencanceDate.Year == attendaceyear && emp.status == 2)
+               .Count();
+                 salaryamount = (perdaysalary * empfulldaycount) + ((perdaysalary * emphalfdaycount) / 2);
+               
+                //return status;
+
+            }
+
+
+            return salaryamount.ToString();
+        }
+
+
+        }
 }
